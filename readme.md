@@ -102,7 +102,7 @@ CREATE TABLE Tickets (
 
 ## Diagrama Entidade-Relacionamento (DER)
 
-O diagrama pode ser encontrado no arquivo: [A\_Entity-Relationship\_(ER)\_diagram\_in\_the\_image\_de.png](A_Entity-Relationship_\(ER\)_diagram_in_the_image_de.png)
+![DER](https://github.com/user-attachments/assets/ea0cadfb-191c-4509-9fa3-81eff2436a8a)
 
 ## Benefícios da Normalização
 
