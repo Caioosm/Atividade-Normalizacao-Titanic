@@ -1,4 +1,4 @@
-# README - Normalização de Dados do Titanic
+# EXERCICIO - Normalização de Dados do Titanic
 
 ## Introdução
 
@@ -111,7 +111,7 @@ O diagrama pode ser encontrado no arquivo: [A\_Entity-Relationship\_(ER)\_diagra
 3. **Facilita consultas eficientes**: Com menos repetições, as buscas são mais rápidas e organizadas.
 4. **Evita anomalias de inserção, remoção e atualização**.
 
-## Consultas SQL
+## Consultas SQL referenciando as sugestoes passadas
 
 ### 1. Distribuição dos Sobreviventes por Porto
 
@@ -158,9 +158,6 @@ JOIN Classes c ON t.ClassId = c.ClassId
 GROUP BY c.ClassName;
 ```
 
-## Reflexão Final
+## Conclusao
 
 A normalização aplicada ao banco de dados do Titanic melhora a organização e a eficiência do sistema. Evita dados redundantes, melhora a integridade dos dados e facilita a realização de consultas complexas. No final, a estrutura do banco se torna mais fácil de manter e escalável para futuras análises.
-
-**PS:** Ainda não sabemos por que a Rose não dividiu a porta com o Jack, mas ao menos nossa base de dados está corretamente normalizada! 😆🚢
-
